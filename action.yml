@@ -1,4 +1,4 @@
-name: 'Synchronize changes from the specified repository to the current one'
+name: 'Sync changes'
 description: 'Commits changes of the specified repository to the current one'
 branding:
   icon: 'git-merge'
