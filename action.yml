@@ -1,0 +1,19 @@
+name: 'Synchronize changes from the specified repository to the current one'
+description: 'Commits changes of the specified repository to the current one'
+branding:
+  icon: 'git-merge'
+  color: 'green'
+author: 'sergey.v.shelomentsev@gmail.com'
+
+inputs:
+  source:
+    description: 'Source repository'
+    required: true
+  branch:
+    description: 'Branch to update'
+    required: false
+    default: main
+    
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
